@@ -19,7 +19,7 @@
 </div>
 
 # Demo
-[View the demo here](https://typeorm-api.heroku.app/)
+[View the demo here](https://typeorm-api.herokuapp.com/)
 
 # Made with
 This project was made using the follow technologies:
@@ -45,7 +45,7 @@ $ yarn install
 
 ### 2 - Configure ormconfig.env vars
 ```bash
-APP_PORT = 
+PORT = 
 SECRET_KEY = 
 
 TYPEORM_CONNECTION = 
@@ -65,6 +65,8 @@ TYPEORM_MIGRATIONS_DIR =
 
 TYPEORM_SUBSCRIBERS = 
 TYPEORM_SUBSCRIBERS_DIR = 
+
+TYPEORM_DRIVER_EXTRA =
 ```
 
 ### 3 - Run Migrations
