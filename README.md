@@ -2,13 +2,10 @@
    <img src="./portfolio/apresentation.gif" alt="Proffy" width="320"/>
 </p>
 <p align="center">
-  <a href="https://travis-ci.com/victorsoares96/typeorm-api">
-    <img alt="Build Status" src="https://travis-ci.com/victorsoares96/typeorm-api.svg?branch=master">
-  </a>
   <a href="https://heroku-badge.herokuapp.com/projects.html">
-    <img alt="Victor Soares" src="https://heroku-badge.herokuapp.com/?app=typeorm-api&style=flat" />
+    <img alt="Victor Soares" src="https://heroku-badge.herokuapp.com/?app=heroku-badge" />
   </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/victorsoares96/proffy?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/victorsoares96/proffy?color=FF9F1C">
   <img alt="Version" src="https://img.shields.io/badge/-Version 1.0-FF9F1C?style=flat" />
 </p>
 
