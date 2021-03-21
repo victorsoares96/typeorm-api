@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  postgres:
+    image: "postgres:9.6.1"
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: "checklist"
+      POSTGRES_PASSWORD: "docker_checklist"
+      POSTGRES_DB: "checklist"
+
