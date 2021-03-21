@@ -1,6 +1,9 @@
 {
    "name": "typeorm-api",
    "version": "0.0.1",
+   "engines": {
+      "node": "15.x"
+   },
    "description": "API de autenticação JWT com TypeScript e TypeORM.",
    "devDependencies": {
       "@types/bcryptjs": "^2.4.2",

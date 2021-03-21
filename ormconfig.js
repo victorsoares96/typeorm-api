@@ -20,5 +20,11 @@ export default {
     entitiesDir: process.env.TYPEORM_ENTITIES_DIR,
     migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
     subscribersDir: process.env.TYPEORM_SUBSCRIBERS_DIR
+  },
+  ssl: true,
+  extra: {
+    ssl: {
+      rejectUnauthorized: false
+    }
   }
 }
